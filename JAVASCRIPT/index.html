@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let variavel_let = 5; //variavel do escopo local
+        var variavel_var = "texto"; //variavel do escopo global
+        const variavel_const = true; //variavel do tipo constante
+
+        function somar(x, y, z){
+            return x + y + z;
+        }
+        console.log("a Soma dos números é igual a " + somar(10,20,30));
+
+        function subtrair(x, y, z){
+            return x - y - z;
+        }
+        console.log("a Subtração dos números é igual a " + subtrair(30,10,5));
+
+        function multiplicar(x, y, z){
+            return x * y * z;
+        }
+        console.log("a Multiplicação dos números é igual a " + multiplicar(4,5,6));
+
+        function dividir(x, y) {
+            if (y === 0 || x === 0) {
+                return "Não é possível dividir por zero!";
+            }
+            return x / y;
+        }
+        console.log("a Divisão dos números é igual a " + dividir(10,0));
+
+    </script>    
+</body>
+</html>
