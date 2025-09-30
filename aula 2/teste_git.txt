@@ -1,1 +1,0 @@
-Aula de Git e GitHub para a turma de técnico em desenvolvimento de sistemas SENAI CIC.
