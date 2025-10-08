@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Contador</title>
+</head>
+<body>
+
+    <button onclick="alterarValor(-1)">-</button>
+    <span id="contador">0</span>
+    <button onclick="alterarValor(1)">+</button>
+
+    <script>
+        function alterarValor(delta) {
+            const contador = document.getElementById('contador');
+            contador.textContent = parseInt(contador.textContent) + delta;
+        }
+    </script>
+
+</body>
+</html>
