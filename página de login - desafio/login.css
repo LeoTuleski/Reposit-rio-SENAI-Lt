@@ -30,13 +30,14 @@
 
 .quadrado_bv{
     height: 100%;
-    width: 30%;
+    width: 35%;
     background-color: rgba(137, 43, 226, 0.521);
     border-radius: 20px 0px 0px 20px;
 }
 
 .font{
     font-family: Impact, fantasy;
+    color: black;
 }
 
 .column{
@@ -54,7 +55,7 @@
 
 .quadrado_vb{
     height: 100%;
-    width: 70%;
+    width: 65%;
     background-color: rgb(226, 205, 255);
     border-radius: 0px 20px 20px 0px;
 }
@@ -64,5 +65,21 @@
 
 .input{
     height: 40px;
-    width: 150px;
+    width: 300px;
+    background-color: rgba(102, 6, 255, 0.363);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(102, 6, 255, 0.363);
+    font-size: x-large;
+    font-family: Impact, fantasy;
+    color: black;
 }
+
+.buttonII{
+    background-color: rgba(102, 6, 255, 0.363);
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    font-size: x-large;
+    box-shadow: 5px 5px 5px rgba(102, 6, 255, 0.363);
+}
+
