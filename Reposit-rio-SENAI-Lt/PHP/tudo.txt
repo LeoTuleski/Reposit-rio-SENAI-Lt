@@ -1,3 +1,0 @@
-quem tiver com problema ir em config e depois httpd.conf.
-em httpd.conf, onde tem o numero 80 mudar TODOS para 8080, 
-usar ctrl + f para pesquisar
