@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.pglogin{
+    height: 600px;
+    width: 900px;
+    background-color: rgb(226, 205, 255);
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px rgba(71, 71, 71, 0.363);
+}
+
+.flex{
+    display: flex;
+}
+
+.center{
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 100vh;
+}
+
+.color{
+    background-color: rgba(255, 255, 255, 0.075);
+}
+
+.quadrado_bv{
+    height: 100%;
+    width: 35%;
+    background-color: rgba(91, 0, 177, 0.767);
+    border-radius: 20px 0px 0px 20px;
+}
+
+.font{
+    font-family: Copperplate;
+    color: black;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.button{
+    background-color:  white;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: x-large;
+}
+
+.quadrado_vb{
+    height: 100%;
+    width: 65%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 20px 20px 0px;
+}
+.space{
+    justify-content: space-between;
+}
+
+.inputtt{
+    height: 40px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.363);
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px rgba(102, 6, 255, 0.363);
+    font-size: medium;
+    color: black;
+    padding-left: 5%;
+}
+
+.buttonII{
+    background-color: rgba(255, 255, 255, 0.363);
+    height: 40px;
+    width: 315px;
+    border-radius: 10px;
+    font-size: x-large;
+    box-shadow: 0px 0px 8px rgba(102, 6, 255, 0.363);
+}
+
+.bem{
+    color: white;
+}
+
+.size{
+    font-size: xx-large;
+}
+.sizee{
+    font-size: xx-large;
+}
