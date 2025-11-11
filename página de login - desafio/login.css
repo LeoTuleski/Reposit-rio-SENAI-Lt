@@ -8,7 +8,7 @@
     width: 900px;
     background-color: rgb(226, 205, 255);
     border-radius: 20px;
-    box-shadow: 5px 5px 5px rgba(102, 6, 255, 0.363);
+    box-shadow: 0px 0px 50px rgba(71, 71, 71, 0.363);
 }
 
 .flex{
@@ -25,18 +25,18 @@
 }
 
 .color{
-    background-color: rgba(68, 0, 255, 0.075);
+    background-color: rgba(255, 255, 255, 0.075);
 }
 
 .quadrado_bv{
     height: 100%;
     width: 35%;
-    background-color: rgba(137, 43, 226, 0.521);
+    background-color: rgba(91, 0, 177, 0.767);
     border-radius: 20px 0px 0px 20px;
 }
 
 .font{
-    font-family: Impact, fantasy;
+    font-family: Copperplate;
     color: black;
 }
 
@@ -45,41 +45,50 @@
 }
 
 .button{
-    background-color: rgb(226, 205, 255);
+    background-color:  white;
     height: 40px;
     width: 150px;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px rgba(102, 6, 255, 0.363);
     font-size: x-large;
 }
 
 .quadrado_vb{
     height: 100%;
     width: 65%;
-    background-color: rgb(226, 205, 255);
+    background-color: rgb(255, 255, 255);
     border-radius: 0px 20px 20px 0px;
 }
 .space{
     justify-content: space-between;
 }
 
-.input{
+.inputtt{
     height: 40px;
     width: 300px;
-    background-color: rgba(102, 6, 255, 0.363);
+    background-color: rgba(255, 255, 255, 0.363);
     border-radius: 10px;
-    box-shadow: 5px 5px 5px rgba(102, 6, 255, 0.363);
-    font-size: x-large;
-    font-family: Impact, fantasy;
+    box-shadow: 0px 0px 8px rgba(102, 6, 255, 0.363);
+    font-size: medium;
     color: black;
+    padding-left: 5%;
 }
 
 .buttonII{
-    background-color: rgba(102, 6, 255, 0.363);
+    background-color: rgba(255, 255, 255, 0.363);
     height: 40px;
-    width: 300px;
+    width: 315px;
     border-radius: 10px;
     font-size: x-large;
-    box-shadow: 5px 5px 5px rgba(102, 6, 255, 0.363);
+    box-shadow: 0px 0px 8px rgba(102, 6, 255, 0.363);
 }
 
+.bem{
+    color: white;
+}
+
+.size{
+    font-size: xx-large;
+}
+.sizee{
+    font-size: xx-large;
+}
