@@ -1,4 +1,4 @@
-<form action="process.php">
+<form action="procs.php">
     <input type="text" placeholder="usuario">
     <input type="password" placeholder="senha">
 
