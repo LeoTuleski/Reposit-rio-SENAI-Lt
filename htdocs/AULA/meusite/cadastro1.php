@@ -8,7 +8,7 @@
 </head>
 <body>
     
-<div class="color">
+<div class="color back">
         <div class="container flex center">
             <div class="pglogin flex space">
                 <div class="quadrado_bv flex center column">
@@ -32,7 +32,7 @@
                         <br>
                         <form action="procsss1.php" method="POST">
                             <div class="flex center column">
-                                <input type="text" placeholder="Nome" name="nome" class="inputtt ">
+                                <input type="text" placeholder="Nome" name="nome" class="inputtt">
                                 <br>
                                 <input type="email" placeholder="E-mail" name="email" class="inputtt">
                                 <br>

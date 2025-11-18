@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    <div class="color">
+    <div class="color back">
         <div class="container flex center">
             <div class="pglogin flex space">
                 <div class="quadrado_bv flex center column">

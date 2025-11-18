@@ -8,7 +8,7 @@
     width: 900px;
     background-color: rgb(226, 205, 255);
     border-radius: 20px;
-    box-shadow: 0px 0px 50px rgba(71, 71, 71, 0.363);
+    box-shadow: 0px 0px 150px rgba(48, 48, 48, 0.363);
 }
 
 .flex{
@@ -45,7 +45,17 @@
 }
 
 .button{
+    background-color: white;
+    height: 40px;
+    width: 170px;
+    border-radius: 10px;
+    font-size: x-large;
+}
+
+.button:hover{
     background-color:  white;
+    transform: scale(110%);
+    transition: 0.5s;
     height: 40px;
     width: 170px;
     border-radius: 10px;
@@ -91,4 +101,8 @@
 }
 .sizee{
     font-size: xx-large;
+}
+
+.back{
+    background-image: url('https://cdn.bemcolar.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/p/a/papel-de-parede-adesivado-abstrato-fundo-branco.jpg');
 }
