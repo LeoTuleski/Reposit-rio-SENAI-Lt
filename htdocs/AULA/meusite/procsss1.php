@@ -12,7 +12,7 @@ $sql = "INSERT INTO usuario (usuario, email, senha) VALUES ('$nome', '$email', '
 
 if($conn->query($sql) === TRUE){
     echo "Usuário cadastrado com sucesso!";
-    header('Location: cadastro1.php');
+    header('Location: login.php');
 }
 else{
     echo "Eroo: " . $sql . "<br>" . $conn->error;

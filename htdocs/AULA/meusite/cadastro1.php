@@ -1,3 +1,7 @@
+<?php
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,7 +22,7 @@
                     <h3 class="bem">Acessar sua conta agora</h3>
                     <br>
                     <br>
-                    <a href="cadastro2.php">
+                    <a href="login.php">
                     <button onclick="" class="font button">ENTRAR</button>
                     </a>
                 </div>
