@@ -7,5 +7,5 @@ if(!isset($_SESSION['id'])) {
 }
 ?>
 
-<h2>Bem vindo, <?php echo $_SESSION ['nome']; ?>!</h2>
+<h2>Seja bem vindo <?php echo $_SESSION ['nome']; ?>!</h2>
 <a href="logout.php">SAIR</a>
