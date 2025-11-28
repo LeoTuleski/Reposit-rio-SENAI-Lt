@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #F5F5F5;
-    font-family: Arial, sans-serif;
+    font-family: Courier, monospace;
 }
 
 
@@ -17,10 +17,10 @@ body {
 
 
 .box {
-    width: 60%;
+    width: 40%;
     background-color: #2C73D2;
     padding: 30px;
-    border-radius: 20px;
+    border-radius: 10px 10px 10px 10px;
     color: white;
     max-height: 80vh;
     overflow-y: auto;
@@ -30,9 +30,9 @@ body {
 
 .titulo {
     text-align: center;
-    font-size: 32px;
+    font-size: 45px;
     margin-bottom: 20px;
-    font-family: "Lucida Handwriting";
+    font-family: Courier, monospace;
     color: #333333;
 }
 
@@ -64,6 +64,18 @@ body {
     font-size: 16px;
 }
 
- .blue{
-    background-color: #2C73D2;
- }
+.box::-webkit-scrollbar {
+    width: 12px;
+    border-radius: 0px 20px 20px 0px;               /* width of the entire scrollbar */
+  }
+  
+  .box::-webkit-scrollbar-track {
+    background: #2C73D2;   /* color of the tracking area */
+    border-radius: 0px 20px 20px 0px;
+  }
+  
+  .box::-webkit-scrollbar-thumb {
+    background-color: #26A69A;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px #2C73D2;  /* creates padding around scroll thumb */
+  }
