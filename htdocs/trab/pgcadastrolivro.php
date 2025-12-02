@@ -54,7 +54,7 @@ if ($_POST) {
 <body>
     <div class="container flex center column">
         <div class="flex center column quadrado">    
-            <h1 class="fontp">SEJA BEM VINDO A LIVRARIA DO SENAI</h1>
+            <h1 class="fontp">SEJA BEM VINDO A LIVRARIA DO</h1>
             <h1 class="fontp size">SENAI</h1>
             <br><br><br><br>
 
