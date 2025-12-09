@@ -1,8 +1,8 @@
-<?php 
-include("connection.php");
-$sql = "SELECT * FROM livros";
-$result = $conn->query($sql);
-?>
+<?php  
+include("connection.php"); 
+$sql = "SELECT * FROM livros"; 
+$result = $conn->query($sql); 
+?>  
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -29,6 +29,16 @@ $result = $conn->query($sql);
                     <p><strong>Ano:</strong> <?= $row['ano'] ?></p>
                     <p><strong>Categoria:</strong> <?= $row['categoria'] ?></p>
                     <p><strong>Quantidade:</strong> <?= $row['quantidade'] ?></p>
+
+                    <!-- BOTÕES DE AÇÃO -->
+                    <a href="editar_livro.php?id=<?= $row['id'] ?>">
+                        <button class="btn editar">Editar</button>
+                    </a>
+
+                    <a href="deletar_livro.php?id=<?= $row['id'] ?>" 
+                       onclick="return confirm('Tem certeza que deseja deletar este livro?');">
+                        <button class="btn deletar">Deletar</button>
+                    </a>
                 </div>
 
             <?php endwhile; ?>
@@ -46,6 +56,6 @@ $result = $conn->query($sql);
 </body>
 </html>
 
-<?php 
-$conn->close();
+<?php  
+$conn->close(); 
 ?>

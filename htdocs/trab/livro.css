@@ -79,3 +79,13 @@ body {
     border-radius: 20px;       /* roundness of the scroll thumb */
     border: 3px #2C73D2;  /* creates padding around scroll thumb */
   }
+
+  .btn.editar {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn.deletar {
+    background-color: #dc3545;
+    color: white;
+}
